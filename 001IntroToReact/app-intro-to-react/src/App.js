@@ -7,11 +7,12 @@ function App() {
   return (
     <div className="App">
       {/* <PrimerReactJsx /> */}
-      <PersonCard firstName='name1' lastName='lastname1' age='age1' hairColor='haircolor1' />
-      <PersonCard firstName='name2' lastName='lastname2' age='age2' hairColor='haircolor2' />
-      <PersonCard firstName='name3' lastName='lastname3' age='age3' hairColor='haircolor3' />
+      <PersonCard firstName='Jane' lastName='Doe' age='45' hairColor='Black' />
+      <PersonCard firstName='John' lastName='Smith' age='88' hairColor='Brown' />
+      <PersonCard firstName='Juanito' lastName='Perez' age='35' hairColor='Red' />
     </div>
   );
 }
+
 
 export default App;

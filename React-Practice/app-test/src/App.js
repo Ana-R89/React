@@ -1,27 +1,32 @@
 import './App.css';
-import Form from './components/Form';
-import Results from './components/Results';
+// import Form from './components/Form';
+// import Results from './components/Results';
+import UserForm from './components/UserForm';
+import ValidatorForm from './components/ValidatorForm';
 
 import React, { useState } from 'react'
 
 function App() {
   const [state, setState] = useState({
-    firstName: '',
-    lastName: '',
+    // firstName: '',
+    // lastName: '',
+    // email: '',
+    // password: '',
+    // confirmpassword: '',
+    username: '',
     email: '',
     password: '',
-    confirmpassword: '',
   })
   return (
     <div className="App">
-      <Form inputs={state} setInputs={setState} />
-      <Results data={state} />
+      {/* <Form inputs={state} setInputs={setState} />
+      <Results data={state} /> */}
+      <UserForm user={user} setUser={setUser} />
+      <ValidatorForm />
+      <UserData {...user} />
     </div>
   );
 }
 
-var globalVar = "Hello World!";
-function saysHello() {
-  console.log(globalVar);
-}
+
 export default App;

@@ -3,8 +3,8 @@ import Form from './Form'
 function App() {
   return (
     <div>
-      <h1>My First React Form</h1>
-      <Form />
+      <h1>React Form</h1>
+      {/* <Form /> */}
     </div>
   )
 }
